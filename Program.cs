@@ -12,3 +12,26 @@
 //     Console.WriteLine("Первое число больше второго");
 // else
 //     Console.WriteLine("Второе число больше первого");    
+
+
+// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+// 2, 3, 7 -> 7
+// 44 5 78 -> 78
+// 22 3 9 -> 22
+
+// Console.WriteLine("Введите первое число:");
+// int numberA = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число:");
+// int numberB = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите третье число:");
+// int numberС = Convert.ToInt32(Console.ReadLine());
+// int maxNum = numberA;
+
+// if (numberB > maxNum)
+//     maxNum = numberB;
+// if (numberС > maxNum)
+//     maxNum = numberС;
+
+// Console.Write("Максимальное из трех введенных чисел: ");
+// Console.WriteLine(maxNum);
